@@ -1,0 +1,36 @@
+/* square grid styles */
+.squares-wrapper {  /* wraps up all of the content */
+    display: flex;
+    justify-content: center; /* aligns content along the center horizontal axis */
+}
+
+.squares-wrapper > .squares {
+    width: 1000px;
+}
+
+.squares-wrapper > .squares > .square {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* gives two equally sized columns*/ 
+}
+
+.square img {
+    width: 100%;
+    height: 500px; /* gives square look */
+    object-fit: cover; /*maintains the aspect ratio of the img and shrinks it down (crops it) to fit inside of its container*/
+}
+
+.square > .squares-text-wrapper {
+    display: flex;
+    justify-content: center;  /*horizontal alignment*/
+    align-items: center;   /*vertical alignment*/
+    flex-direction: column;  /*flex direction by default is to put items next to each other, we need to modify this by adding the value column*/
+    padding: 42px;
+}
+
+.square > .squares-text-wrapper h1 {
+    color: #cea135;
+}
+
+.square > .squares-text-wrapper p {
+    line-height: 1.8em;
+}
