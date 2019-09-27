@@ -9,6 +9,10 @@ This is a basic HTML and CSS static site that shows off the special features of 
 >
 > animations 
 >
+> skewed images and headings
+>
 > mobile responsiveness 
 >
-> skewed images and headings
+
+and much more...
+
