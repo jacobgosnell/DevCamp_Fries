@@ -1,5 +1,7 @@
 # DevCamp_Fries
 
+> Live version: https://devcamp-fries-project.herokuapp.com/
+
 This is a basic HTML and CSS static site that shows off the special features of scripting language, such as 
 > flexbox
 >
